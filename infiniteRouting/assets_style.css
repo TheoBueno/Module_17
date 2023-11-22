@@ -1,0 +1,197 @@
+ /* Notes were added to easy any "future me" alterations*/
+ *,*::before,*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif; /* good 'Internet' look in general */
+}
+
+body {
+	font: normal 16px/1.5 'Poppins', sans-serif; /* good 'Internet' look */
+	background: #187795;
+	/* color: #fff; */
+	overflow-x: hidden;
+	padding-bottom: 50px;
+}
+/* GALLERY SECTION
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+body {
+  background-color: #434c50;
+}
+
+.container.gallery-container { 
+  background-color: #fff;
+  background-color: #187795; /*Color of the back of the pictures*/
+  color: 2e294e;
+  min-height: 100vh;
+  padding: 30px 50px;
+}
+
+.gallery-container h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Alegreya', sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+  color: #DE6C3F;;
+}
+
+.gallery-container p.page-description {
+  text-align: center;
+  margin: 25px auto;
+  font-size: 20px;
+  color: #0ee0fb; /*Subtitle Text Color*/
+}
+
+.tz-gallery {
+  padding: 40px;
+}
+
+/* Override bootstrap column paddings */
+.tz-gallery .row > div {
+  padding: 2px;
+}
+
+.tz-gallery .lightbox img {
+  width: 100%;
+  border-radius: 0;
+  position: relative;
+}
+
+.tz-gallery .lightbox:before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -13px;
+  margin-left: -13px;
+  opacity: 0;
+  color: #fff;
+  font-size: 26px;
+  font-family: 'Glyphicons Halflings';
+  content: '\e003';
+  pointer-events: none;
+  z-index: 9000;
+  transition: 0.4s;
+}
+
+
+.tz-gallery .lightbox:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: rgba(46, 132, 206, 0.7); /*color of translucent selection*/
+  background-color: #187895b0; /*trying other shade color of translucent selection*/
+  content: '';
+  transition: 0.4s;
+}
+
+.tz-gallery .lightbox:hover:after,
+.tz-gallery .lightbox:hover:before {
+  opacity: 1;
+}
+
+.baguetteBox-button {
+  background-color: transparent !important;
+}
+
+@media(max-width: 768px) {
+  body {
+      padding: 0;
+  }
+}
+
+body {
+  background-color: #187795;
+}
+
+/* ATTRIBUTION STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#cont2 {
+  background-color: #CAD49D;
+  padding: 10px;
+  border-radius:5px;       /*Add to make corners round, set 0 to make square*/
+
+}
+#cont2 p {
+  padding-right: 20px;
+  text-align: justify;
+}
+
+#cont2 h1 {
+  font-family: 'Alegreya', serif;
+  font-weight: bold;
+  color: #2E294E;
+  border: 1px;
+}
+
+#cont2 p a {
+  font-weight: 200;
+}
+
+#cont2 nav {
+  width: 150px;
+}
+
+#cont2 ul {
+  font-weight: 700;
+  font-family: 'Poppins';
+  text-decoration: none;
+  color: #fff;
+}
+
+.col-sm-9 div {
+  padding-top: 3px;  
+}
+
+.col-sm-9 div:not(:last-child) {
+  border-bottom:1px solid black;
+}
+
+/* FOOTER STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.page-footer {
+  position: fixed;
+  right: 0;
+  bottom: 20px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  color: black;
+  background: rgba(255, 255, 255, 0.65);
+}
+
+.page-footer a {
+  display: flex;
+  margin-left: 4px;
+}
+
+/* NAVBAR SECTION
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#new-boot{
+  display: flex;
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 15px !important;
+  letter-spacing: 1px !important;
+  font-stretch: extra-expanded !important;
+  padding-left: 10px;
+}
+
+.navbar-brand{
+  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important; */
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 20px !important;
+  letter-spacing: 1px !important;
+  font-stretch: extra-expanded !important;
+  padding-left: 12px;
+  padding-top: 6px;
+  text-align: center;
+}
+
+.navbar {
+  border-radius: 0%;
+}
