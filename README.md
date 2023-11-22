@@ -16,19 +16,19 @@ them available in an easy to read format.
   Adding a search bar would be a useful function for a larger database
 
 ## How to Use: Routing:
-  It takes a JSON file of books and catalogs them by most relevant information and makes 
-them available in an easy to read format.
+  One can use the links on top of the page to navigate without needind to hit servers for
+more data.
 
 ## Roadmap of future improvements: 
-  Adding a search bar would be a useful function for a larger database
+  Integrating this onto my portifolio could be useful.
 
 ## Appearance:
 <img src= "bookSort_pic_readme.png" width='400'/><img src= "router_pic_readme.png" width='400'/>
 
 
 ## Links:
-[Exercise_1](https://theobueno.github.io/Module_17/infiniteRouting/i_books.html)
-[Exercise_2](https://theobueno.github.io/Module_17/infiniteRouting/index.html)
+[Exercise 1](https://theobueno.github.io/Module_17/infiniteRouting/i_books.html), 
+[Exercise 2](https://theobueno.github.io/Module_17/infiniteRouting/index.html), 
 [Repository](https://github.com/TheoBueno/Module_17.git/)
 
 ## License information: 
